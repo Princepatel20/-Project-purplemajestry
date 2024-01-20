@@ -2,6 +2,7 @@
     height: 120vh;
     background: linear-gradient(180deg, #c8b9ac, #e1ffea22 60%);
     display: flex;
+    height: 700px;
 }
 .hero-left{
     flex: 1;
@@ -11,30 +12,42 @@
     gap: 20px;
     padding-left: 180px;
     line-height: 1.1;
+    height: 700px;
 }
 .hero-left h2{
-    color: #909090;
+    color: #000000;
     font-size: 26px;
-    font-size: 100px;
+    font-size: 75px;
     font-weight: 700;
+    font-family: "	Courier New", Times, Monospace;
 }
-.hero-latest-btn{
+.hero-left h4{
+    color: #bf8686;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Times New Roman", Times, serif;
+}
+.hero-shop-btn{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    width: 310px;
+    width: 510px;
     height: 70px;
-    border-radius: 75px;
-    margin-top: 30px;
-    background: #ff4141;
-    color: white;
+    border-radius: -175px;
+    margin-top: 600px;
+    margin-left: -550px;
+    background: #bf8686;
+    color: #000000;
     font-size: 22px;
     font-weight: 500;
-    
+    font: 15px Arial, sans-serif;
 }
 .hero-right{
     flex: 1;
     display: flex;
-    height: 1000px;
+    height: 700px;
+    margin-top: 141px;
+    padding-left: 300px;
+    width: 500px;
 }
