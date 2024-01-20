@@ -3,6 +3,7 @@ import "./Shop.css";
 import image_1192 from "../Components/Assets/1192.jpg";
 import image_1113 from "../Components/Assets/1113.jpg";
 import image_1164 from "../Components/Assets/1164.jpg";
+import image_1162 from "../Components/Assets/1162.jpg";
 
 const Shop = () => {
   return (
@@ -32,6 +33,15 @@ const Shop = () => {
         <div className="shop-1164_image">
           <img src={image_1164} alt="Shop" />
           <p>WOMEN MAGENTA HANDWORK...</p>
+          <div className="price-container">
+            <span className="original-price">₹3099</span>
+            <span className="discounted-price">₹1399</span>
+            <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1162_image">
+          <img src={image_1162} alt="Shop" />
+          <p>WOMEN PINK HANDWORK...</p>
           <div className="price-container">
             <span className="original-price">₹3099</span>
             <span className="discounted-price">₹1399</span>
