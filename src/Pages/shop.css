@@ -1,0 +1,10 @@
+.shop-title{
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #7c795d; font-family: 'Trocchi', serif; 
+    font-size: 32px; 
+    font-weight: normal; 
+    line-height: 280px; margin: 0;
+}
