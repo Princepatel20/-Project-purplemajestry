@@ -4,6 +4,13 @@ import image_1192 from "../Components/Assets/1192.jpg";
 import image_1113 from "../Components/Assets/1113.jpg";
 import image_1164 from "../Components/Assets/1164.jpg";
 import image_1162 from "../Components/Assets/1162.jpg";
+import image_1116 from "../Components/Assets/1116.jpg";
+import image_1147 from "../Components/Assets/1147.jpg";
+import image_1165 from "../Components/Assets/1165.jpg";
+import image_1146 from "../Components/Assets/1146.jpg";
+import image_1114 from "../Components/Assets/1114.jpg";
+import image_1161 from "../Components/Assets/1161.jpg";
+import image_1193 from "../Components/Assets/1193.jpg";
 
 const Shop = () => {
   return (
@@ -46,6 +53,69 @@ const Shop = () => {
             <span className="original-price">₹3099</span>
             <span className="discounted-price">₹1399</span>
             <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1116_image">
+          <img src={image_1116} alt="Shop" />
+          <p>WOMEN TEAL ORIGINAL BATIK...</p>
+          <div className="price-container">
+            <span className="original-price">₹2999</span>
+            <span className="discounted-price">₹1349</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1147_image">
+          <img src={image_1147} alt="Shop" />
+          <p>WOMEN TEAL ETHNIC MOTIFS...</p>
+          <div className="price-container">
+            <span className="original-price">₹2799</span>
+            <span className="discounted-price">₹1249</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1165_image">
+          <img src={image_1165} alt="Shop" />
+          <p>WOMEN MULTI COLOR HAND...</p>
+          <div className="price-container">
+            <span className="original-price">₹3099</span>
+            <span className="discounted-price">₹1399</span>
+            <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1146_image">
+          <img src={image_1146} alt="Shop" />
+          <p>WOMEN PINK ETHNIC MOTIFS EM...</p>
+          <div className="price-container">
+            <span className="original-price">₹2799</span>
+            <span className="discounted-price">₹1249</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1114_image">
+          <img src={image_1114} alt="Shop" />
+          <p>WOMEN RANI ORIGINAL BATIK KU...</p>
+          <div className="price-container">
+            <span className="original-price">₹2999</span>
+            <span className="discounted-price">₹1349</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1161_image">
+          <img src={image_1161} alt="Shop" />
+          <p>WOMEN MULTI COLOUR HAND...</p>
+          <div className="price-container">
+            <span className="original-price">₹3099</span>
+            <span className="discounted-price">₹1399</span>
+            <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1193_image">
+          <img src={image_1193} alt="Shop" />
+          <p>WOMEN MULTI COLOUR KURTA WI...</p>
+          <div className="price-container">
+            <span className="original-price">₹1099</span>
+            <span className="discounted-price">₹899</span>
+            <span className="discounted-label">55% off</span>
           </div>
         </div>
       </div>
