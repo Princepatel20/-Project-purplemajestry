@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Shop.css"
+import image_1192 from "../Components/Assets/1192.jpg"
 
 
 const Shop = () => {
@@ -8,8 +9,9 @@ const Shop = () => {
     <div className="shop-title">
     <h2>IN THE SPOTLIGHT</h2>
     </div>
-    <div className="1192_image">
-
+    <div className="shop-1192_image">
+    <img src={image_1192} alt="Shop " />
+    <h4>WOMEN MULTI COLOR KURTA...</h4>
     </div>
   </div>
   </>
