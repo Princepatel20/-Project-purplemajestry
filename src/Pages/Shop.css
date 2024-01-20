@@ -28,13 +28,96 @@
     width: 100%; /* Make sure the image takes full width */
     border-radius: 4px; /* Apply border-radius to the image */
 }
-.shop-1192_image h4{
+.shop-1192_image p{
     text-align: center;
     margin: 10px 0 0;
     align-items: center;
     justify-content: center;
-    margin-top: 450px;
+    margin-top: 380px;
     display: flex;
-    flex-direction: row-reverse;
-    margin-left: -50px;
+    flex-direction: row;
+    margin-left: -280px;
+}
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 360px;
+}
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+}
+.discounted-price {
+    color: #FF0000;
+    font-weight: bold;
+}
+.discount-label {
+    color: #00FF00;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+.shop-1113_image{
+    flex: 1;
+    display: flex;
+    height: 350px;
+    margin-top: -360px;
+    padding-left: 100px;
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 275px;
+    margin-left: 400px;
+}
+.shop-1113_image p{
+    text-align: center;
+    margin: 10px 0 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 380px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -275px;
+}
+.shop-1113_image:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);;
+}
+.shop-1113_image img {
+    width: 100%; /* Make sure the image takes full width */
+    border-radius: 4px; /* Apply border-radius to the image */
+}
+
+.shop-1164_image{
+    flex: 1;
+    display: flex;
+    height: 350px;
+    margin-top: -360px;
+    padding-left: 100px;
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 265px;
+    margin-left: 730px;
+}
+.shop-1164_image:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.shop-1164_image img {
+    width: 100%; /* Make sure the image takes full width */
+    border-radius: 4px; /* Apply border-radius to the image */
+}
+.shop-1164_image p{
+    text-align: center;
+    margin: 10px 0 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 380px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -275px;
 }
