@@ -20,13 +20,23 @@ import image_1185 from "../Components/Assets/1185.jpg";
 import image_1200 from "../Components/Assets/1200.jpg";
 import image_1178 from "../Components/Assets/1178.jpg";
 import image_1129 from "../Components/Assets/1129.jpg";
+import image_1065 from "../Components/Assets/1065.jpg";
+import image_1197 from "../Components/Assets/1197.jpg";
+import image_1066 from "../Components/Assets/1066.jpg";
+import image_1064 from "../Components/Assets/1064.jpg";
+import image_1204 from "../Components/Assets/1204.jpg";
+import image_1207 from "../Components/Assets/1207.jpg";
+import image_1090 from "../Components/Assets/1090.jpg";
+import image_1219 from "../Components/Assets/1219.jpg";
+import image_1021 from "../Components/Assets/1021.jpg";
+import image_1102 from "../Components/Assets/1102.jpg";
 
 const Shop = () => {
   return (
     <>
       <div className="shop">
         <div className="shop-title">
-          <h2>IN THE SPOTLIGHT</h2>
+          <h2>All Products</h2>
         </div>
         <div className="shop-1192_image">
           <img src={image_1192} alt="Shop " />
@@ -206,6 +216,96 @@ const Shop = () => {
             <span className="original-price">₹2649</span>
             <span className="discounted-price">₹1999</span>
             <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1065_image">
+          <img src={image_1065} alt="Shop" />
+          <p>WOMEN WINE SOLID REGULAR PURE...</p>
+          <div className="price-container">
+            <span className="original-price">₹1349</span>
+            <span className="discounted-price">₹599</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1197_image">
+          <img src={image_1197} alt="Shop" />
+          <p>WOMEN LIGHT PURPLE COTTON...</p>
+          <div className="price-container">
+            <span className="original-price">₹1649</span>
+            <span className="discounted-price">₹749</span>
+            <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1066_image">
+          <img src={image_1066} alt="Shop" />
+          <p>WOMEN BLACK SOLID REGULAR PURE...</p>
+          <div className="price-container">
+            <span className="original-price">₹1349</span>
+            <span className="discounted-price">₹549</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1064_image">
+          <img src={image_1064} alt="Shop" />
+          <p>WOMEN THE SOLID REGULAR PURE...</p>
+          <div className="price-container">
+            <span className="original-price">₹1349</span>
+            <span className="discounted-price">₹599</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1204_image">
+          <img src={image_1204} alt="Shop" />
+          <p>PINK COLOUR KURTA SET WITH PLA...</p>
+          <div className="price-container">
+            <span className="original-price">₹1899</span>
+            <span className="discounted-price">₹849</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1207_image">
+          <img src={image_1207} alt="Shop" />
+          <p>OFFWHITE LINING KURTA SET WITH...</p>
+          <div className="price-container">
+            <span className="original-price">₹1899</span>
+            <span className="discounted-price">₹849</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1090_image">
+          <img src={image_1090} alt="Shop" />
+          <p>WOMEN BLACK PRINTED ORGANZA...</p>
+          <div className="price-container">
+            <span className="original-price">₹2649</span>
+            <span className="discounted-price">₹1199</span>
+            <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1219_image">
+          <img src={image_1219} alt="Shop" />
+          <p>MULTI COLOUR KOTA CHEX KURTA</p>
+          <div className="price-container">
+            <span className="original-price">₹1099</span>
+            <span className="discounted-price">₹499</span>
+            <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1021_image">
+          <img src={image_1021} alt="Shop" />
+          <p>WOMEN GREY THREAD WORK...</p>
+          <div className="price-container">
+            <span className="original-price">₹1649</span>
+            <span className="discounted-price">₹749</span>
+            <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1102_image">
+          <img src={image_1102} alt="Shop" />
+          <p>WOMEN PISTA PRINTED COTTON...</p>
+          <div className="price-container">
+            <span className="original-price">₹1799</span>
+            <span className="discounted-price">₹799</span>
+            <span className="discounted-label">55% off</span>
           </div>
         </div>
       </div>
