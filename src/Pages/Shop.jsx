@@ -11,6 +11,11 @@ import image_1146 from "../Components/Assets/1146.jpg";
 import image_1114 from "../Components/Assets/1114.jpg";
 import image_1161 from "../Components/Assets/1161.jpg";
 import image_1193 from "../Components/Assets/1193.jpg";
+import image_1170 from "../Components/Assets/1170.jpg";
+import image_1107 from "../Components/Assets/1107.jpg";
+import image_1089 from "../Components/Assets/1089.jpg";
+import image_1047 from "../Components/Assets/1047.jpg";
+import image_1121 from "../Components/Assets/1121.jpg";
 
 const Shop = () => {
   return (
@@ -115,6 +120,51 @@ const Shop = () => {
           <div className="price-container">
             <span className="original-price">₹1099</span>
             <span className="discounted-price">₹899</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1170_image">
+          <img src={image_1170} alt="Shop" />
+          <p>WOMEN BABYPINK HAND WORKED...</p>
+          <div className="price-container">
+            <span className="original-price">₹3599</span>
+            <span className="discounted-price">₹1599</span>
+            <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1107_image">
+          <img src={image_1107} alt="Shop" />
+          <p>WOMEN TEAL ART SILK KURTA WITH...</p>
+          <div className="price-container">
+            <span className="original-price">₹2549</span>
+            <span className="discounted-price">₹1149</span>
+            <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1089_image">
+          <img src={image_1089} alt="Shop" />
+          <p>WOMEN PURPLE PRINTED ORGANZA...</p>
+          <div className="price-container">
+            <span className="original-price">₹2649</span>
+            <span className="discounted-price">₹1199</span>
+            <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1047_image">
+          <img src={image_1047} alt="Shop" />
+          <p>WOMEN PEACH-COLOURED ETHNIC...</p>
+          <div className="price-container">
+            <span className="original-price">₹2449</span>
+            <span className="discounted-price">₹1099</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1121_image">
+          <img src={image_1121} alt="Shop" />
+          <p>WOMEN MULTI COLOUR PRINTED...</p>
+          <div className="price-container">
+            <span className="original-price">₹2799</span>
+            <span className="discounted-price">₹1249</span>
             <span className="discounted-label">55% off</span>
           </div>
         </div>
