@@ -8,12 +8,22 @@
 .footer-logo{
     display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: center;
+    color: #171717;
+    margin-top: 200px;
+
+    font-size: 38px;
+    font-weight: 600;
 }
 .footer-logo p{
     color: #383838;
     font-size: 46px;
     font-weight: 700;
+}
+.footer-logo img {
+    width: 175px; /* Set the width of your logo as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Adjust spacing as needed */
 }
 .footer-links{
     display: flex;
@@ -34,6 +44,11 @@
     padding-bottom: 6px;
     background: #fbfbfb;
     border: 1px solid #ebebeb;
+}
+.footer-icons-container img{
+    width: 50px; /* Set the width of your logo as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Adjust spacing as needed */
 }
 .footer-copyright{
     display: flex;
