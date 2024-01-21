@@ -16,6 +16,10 @@ import image_1107 from "../Components/Assets/1107.jpg";
 import image_1089 from "../Components/Assets/1089.jpg";
 import image_1047 from "../Components/Assets/1047.jpg";
 import image_1121 from "../Components/Assets/1121.jpg";
+import image_1185 from "../Components/Assets/1185.jpg";
+import image_1200 from "../Components/Assets/1200.jpg";
+import image_1178 from "../Components/Assets/1178.jpg";
+import image_1129 from "../Components/Assets/1129.jpg";
 
 const Shop = () => {
   return (
@@ -166,6 +170,42 @@ const Shop = () => {
             <span className="original-price">₹2799</span>
             <span className="discounted-price">₹1249</span>
             <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1185_image">
+          <img src={image_1185} alt="Shop" />
+          <p>WOMEN BURGUNDY PRINTED MAL...</p>
+          <div className="price-container">
+            <span className="original-price">₹2349</span>
+            <span className="discounted-price">₹1049</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1200_image">
+          <img src={image_1200} alt="Shop" />
+          <p>MULTI COLOUR PRINTED CO-ORDS...</p>
+          <div className="price-container">
+            <span className="original-price">₹1799</span>
+            <span className="discounted-price">₹799</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1178_image">
+          <img src={image_1178} alt="Shop" />
+          <p>WOMEN BURGUNDY PRINTED GEORGE...</p>
+          <div className="price-container">
+            <span className="original-price">₹2199</span>
+            <span className="discounted-price">₹999</span>
+            <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1129_image">
+          <img src={image_1129} alt="Shop" />
+          <p>WOMEN PURPLE WEAVE BUTTI...</p>
+          <div className="price-container">
+            <span className="original-price">₹2649</span>
+            <span className="discounted-price">₹1999</span>
+            <span className="discounted-label">54% off</span>
           </div>
         </div>
       </div>
