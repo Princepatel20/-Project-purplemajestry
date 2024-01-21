@@ -1,0 +1,252 @@
+.spotlight-title {
+  margin-top: 250px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #7c795d;
+  font-family: "Trocchi", serif;
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 280px;
+  margin: 0;
+}
+.spotlight-1192_image {
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -100px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 140px;
+}
+.spotlight-1192_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.spotliight-1192_image img {
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
+}
+.spotlight-1192_image p {
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
+}
+.spotlight-1113_image {
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 460px;
+}
+.spotlight-1113_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.spotliight-1113_image img {
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
+}
+.spotlight-1113_image p {
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
+}
+.spotlight-1164_image {
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 780px;
+}
+.spotlight-1164_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.spotliight-1164_image img {
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
+}
+.spotlight-1164_image p {
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
+}
+.spotlight-1162_image {
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 1090px;
+}
+.spotlight-1162_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.spotliight-1162_image img {
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
+}
+.spotlight-1162_image p {
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
+}
+.spotlight-1116_image {
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: 80px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 140px;
+}
+.spotlight-1116_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.spotliight-1116_image img {
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
+}
+.spotlight-1116_image p {
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
+}
+.spotlight-1147_image {
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 460px;
+}
+.spotlight-1147_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.spotliight-1147_image img {
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
+}
+.spotlight-1147_image p {
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
+}
+.spotlight-1165_image {
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 780px;
+}
+.spotlight-1165_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.spotliight-1165_image img {
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
+}
+.spotlight-1165_image p {
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
+}
+.spotlight-1146_image {
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 1090px;
+}
+.spotlight-1146_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.spotliight-1146_image img {
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
+}
+.spotlight-1146_image p {
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
+}
