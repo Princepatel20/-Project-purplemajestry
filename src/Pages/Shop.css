@@ -1,362 +1,512 @@
 .shop-title{
-    margin-top: 150px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    color: #7c795d; font-family: 'Trocchi', serif; 
-    font-size: 32px; 
-    font-weight: normal; 
-    line-height: 280px; margin: 0;
+  margin-top: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #7c795d; font-family: 'Trocchi', serif; 
+  font-size: 32px; 
+  font-weight: normal; 
+  line-height: 280px; margin: 0;
 }
 .shop-1192_image{
-    flex: 1;
-    display: flex;
-    height: 350px;
-    margin-top: -100px;
-    padding-left: 100px;
-    width: 500px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 265px;
-    margin-left: 80px;
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -100px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 80px;
 }
 .shop-1192_image:hover{
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);;
 }
 .shop-1192_image img {
-    width: 100%; /* Make sure the image takes full width */
-    border-radius: 4px; /* Apply border-radius to the image */
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
 }
 .shop-1192_image p{
-    text-align: center;
-    margin: 10px 0 0;
-    align-items: center;
-    justify-content: center;
-    margin-top: 380px;
-    display: flex;
-    flex-direction: row;
-    margin-left: -280px;
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
 }
 .price-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 360px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 360px;
 }
 .original-price {
-    text-decoration: line-through;
-    color: #999;
+  text-decoration: line-through;
+  color: #999;
 }
 .discounted-price {
-    color: #FF0000;
-    font-weight: bold;
+  color: #FF0000;
+  font-weight: bold;
 }
 .discount-label {
-    color: #00ff00;
-    font-weight: bold;
-    position: absolute;
-    top: 10px;
-    right: 10px;
+  color: #00ff00;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 
 }
 .shop-1113_image{
-    flex: 1;
-    display: flex;
-    height: 350px;
-    margin-top: -360px;
-    padding-left: 100px;
-    width: 500px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 275px;
-    margin-left: 400px;
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 275px;
+  margin-left: 400px;
 }
 .shop-1113_image p{
-    text-align: center;
-    margin: 10px 0 0;
-    align-items: center;
-    justify-content: center;
-    margin-top: 380px;
-    display: flex;
-    flex-direction: row;
-    margin-left: -275px;
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -275px;
 }
 .shop-1113_image:hover{
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);;
 }
 .shop-1113_image img {
-    width: 100%; /* Make sure the image takes full width */
-    border-radius: 4px; /* Apply border-radius to the image */
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
 }
 
 .shop-1164_image{
-    flex: 1;
-    display: flex;
-    height: 350px;
-    margin-top: -360px;
-    padding-left: 100px;
-    width: 500px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 265px;
-    margin-left: 730px;
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 730px;
 }
 .shop-1164_image:hover{
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .shop-1164_image img {
-    width: 100%; /* Make sure the image takes full width */
-    border-radius: 4px; /* Apply border-radius to the image */
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
 }
 .shop-1164_image p{
-    text-align: center;
-    margin: 10px 0 0;
-    align-items: center;
-    justify-content: center;
-    margin-top: 380px;
-    display: flex;
-    flex-direction: row;
-    margin-left: -275px;
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -275px;
 }
 .shop-1162_image{
-    flex: 1;
-    display: flex;
-    height: 350px;
-    margin-top: -360px;
-    padding-left: 100px;
-    width: 500px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 265px;
-    margin-left: 1050px;
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 1050px;
 }
 .shop-1162_image:hover{
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .shop-1162_image img {
-    width: 100%; /* Make sure the image takes full width */
-    border-radius: 4px; /* Apply border-radius to the image */
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
 }
 .shop-1162_image p{
-    text-align: center;
-    margin: 10px 0 0;
-    align-items: center;
-    justify-content: center;
-    margin-top: 380px;
-    display: flex;
-    flex-direction: row;
-    margin-left: -280px;
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
 }
 .shop-1116_image{
-    flex: 1;
-    display: flex;
-    height: 350px;
-    margin-top: 100px;
-    padding-left: 100px;
-    width: 500px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 265px;
-    margin-left: 80px;
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: 100px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 80px;
 }
 .shop-1116_image:hover{
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .shop-1116_image img {
-    width: 100%; /* Make sure the image takes full width */
-    border-radius: 4px; /* Apply border-radius to the image */
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
 }
 .shop-1116_image p{
-    text-align: center;
-    margin: 10px 0 0;
-    align-items: center;
-    justify-content: center;
-    margin-top: 380px;
-    display: flex;
-    flex-direction: row;
-    margin-left: -280px;
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
 }
 .shop-1147_image{
-    flex: 1;
-    display: flex;
-    height: 350px;
-    margin-top: -360px;
-    padding-left: 100px;
-    width: 500px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 265px;
-    margin-left: 400px;
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 400px;
 }
 .shop-1147_image:hover{
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .shop-1147_image img {
-    width: 100%; /* Make sure the image takes full width */
-    border-radius: 4px; /* Apply border-radius to the image */
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
 }
 .shop-1147_image p{
-    text-align: center;
-    margin: 10px 0 0;
-    align-items: center;
-    justify-content: center;
-    margin-top: 380px;
-    display: flex;
-    flex-direction: row;
-    margin-left: -280px;
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
 }
 .shop-1165_image{
-    flex: 1;
-    display: flex;
-    height: 350px;
-    margin-top: -360px;
-    padding-left: 100px;
-    width: 500px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 265px;
-    margin-left: 730px;
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 730px;
 }
 .shop-1165_image:hover{
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .shop-1165_image img {
-    width: 100%; /* Make sure the image takes full width */
-    border-radius: 4px; /* Apply border-radius to the image */
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
 }
 .shop-1165_image p{
-    text-align: center;
-    margin: 10px 0 0;
-    align-items: center;
-    justify-content: center;
-    margin-top: 380px;
-    display: flex;
-    flex-direction: row;
-    margin-left: -280px;
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
 }
 .shop-1146_image{
-    flex: 1;
-    display: flex;
-    height: 350px;
-    margin-top: -360px;
-    padding-left: 100px;
-    width: 500px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 265px;
-    margin-left: 1050px;
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 1050px;
 }
 .shop-1146_image:hover{
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .shop-1146_image img {
-    width: 100%; /* Make sure the image takes full width */
-    border-radius: 4px; /* Apply border-radius to the image */
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
 }
 .shop-1146_image p{
-    text-align: center;
-    margin: 10px 0 0;
-    align-items: center;
-    justify-content: center;
-    margin-top: 380px;
-    display: flex;
-    flex-direction: row;
-    margin-left: -280px;
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
 }
 .shop-1114_image{
-    flex: 1;
-    display: flex;
-    height: 350px;
-    margin-top: 100px;
-    padding-left: 100px;
-    width: 500px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 265px;
-    margin-left: 80px;
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: 100px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 80px;
 }
 .shop-1114_image:hover{
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .shop-1114_image img {
-    width: 100%; /* Make sure the image takes full width */
-    border-radius: 4px; /* Apply border-radius to the image */
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
 }
 .shop-1114_image p{
-    text-align: center;
-    margin: 10px 0 0;
-    align-items: center;
-    justify-content: center;
-    margin-top: 380px;
-    display: flex;
-    flex-direction: row;
-    margin-left: -280px;
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
 }
 .shop-1161_image{
-    flex: 1;
-    display: flex;
-    height: 350px;
-    margin-top: -360px;
-    padding-left: 100px;
-    width: 500px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 265px;
-    margin-left: 400px;
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 400px;
 }
 .shop-1161_image:hover{
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .shop-1161_image img {
-    width: 100%; /* Make sure the image takes full width */
-    border-radius: 4px; /* Apply border-radius to the image */
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
 }
 .shop-1161_image p{
-    text-align: center;
-    margin: 10px 0 0;
-    align-items: center;
-    justify-content: center;
-    margin-top: 380px;
-    display: flex;
-    flex-direction: row;
-    margin-left: -280px;
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
 }
 .shop-1193_image{
-    flex: 1;
-    display: flex;
-    height: 350px;
-    margin-top: -360px;
-    padding-left: 100px;
-    width: 500px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 265px;
-    margin-left: 730px;
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 730px;
 }
 .shop-1193_image:hover{
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .shop-1193_image img {
-    width: 100%; /* Make sure the image takes full width */
-    border-radius: 4px; /* Apply border-radius to the image */
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
 }
 .shop-1193_image p{
-    text-align: center;
-    margin: 10px 0 0;
-    align-items: center;
-    justify-content: center;
-    margin-top: 380px;
-    display: flex;
-    flex-direction: row;
-    margin-left: -280px;
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
+}
+.shop-1170_image{
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 1050px;
+}
+.shop-1170_image:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.shop-1170_image img {
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
+}
+.shop-1170_image p{
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
+}
+.shop-1107_image{
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: 100px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 80px;
+}
+.shop-1107_image:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.shop-1107_image img {
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
+}
+.shop-1107_image p{
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
+}
+.shop-1089_image{
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 400px;
+}
+.shop-1089_image:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.shop-1089_image img {
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
+}
+.shop-1089_image p{
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
+}
+.shop-1047_image{
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 730px;
+}
+.shop-1047_image:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.shop-1047_image img {
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
+}
+.shop-1047_image p{
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
+}
+.shop-1121_image{
+  flex: 1;
+  display: flex;
+  height: 350px;
+  margin-top: -360px;
+  padding-left: 100px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 265px;
+  margin-left: 1050px;
+}
+.shop-1121_image:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.shop-1121_image img {
+  width: 100%; /* Make sure the image takes full width */
+  border-radius: 4px; /* Apply border-radius to the image */
+}
+.shop-1121_image p{
+  text-align: center;
+  margin: 10px 0 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 380px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -280px;
 }
