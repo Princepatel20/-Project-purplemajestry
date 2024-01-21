@@ -5,20 +5,22 @@ import Navbar from "./Components/Navbar/Navbar";
 import ShopCategory from "./Pages/ShopCategory";
 import Product from "./Pages/Product";
 import LoginSignup from "./Pages/LoginSignup";
-import Hero from "./Components/Hero/Hero";
+import Home from "./Pages/Home";
+// import Hero from "./Components/Hero/Hero";
 import Shop from "../src/Pages/Shop";
 import Menu from "./Pages/Menu";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Login from "./Components/Login/Login";
 import Cart from "../src/Pages/Cart";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/menus" element={<Menu />} />
           <Route path="/about" element={<About />} />
@@ -41,6 +43,7 @@ function App() {
           <Route path="/cart" element={<cart />} />
           <Route path="/login" element={<LoginSignup />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
