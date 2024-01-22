@@ -30,6 +30,13 @@ import image_1090 from "../Components/Assets/1090.jpg";
 import image_1219 from "../Components/Assets/1219.jpg";
 import image_1021 from "../Components/Assets/1021.jpg";
 import image_1102 from "../Components/Assets/1102.jpg";
+import image_1106 from "../Components/Assets/1106.jpg";
+import image_1196 from "../Components/Assets/1196.jpg";
+import image_1208 from "../Components/Assets/1208.jpg";
+import image_1111 from "../Components/Assets/1111.jpg";
+import image_1160 from "../Components/Assets/1160.jpg";
+import image_1205 from "../Components/Assets/1205.jpg";
+import image_1220 from "../Components/Assets/1220.jpg";
 
 const Shop = () => {
   return (
@@ -306,6 +313,69 @@ const Shop = () => {
             <span className="original-price">₹1799</span>
             <span className="discounted-price">₹799</span>
             <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1106_image">
+          <img src={image_1106} alt="Shop" />
+          <p>WOMEN LEMON BANDHANI PRINTED...</p>
+          <div className="price-container">
+            <span className="original-price">₹1999</span>
+            <span className="discounted-price">₹899</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1196_image">
+          <img src={image_1196} alt="Shop" />
+          <p>WOMEN BEIGE COTTON SILK KURTA...</p>
+          <div className="price-container">
+            <span className="original-price">₹1649</span>
+            <span className="discounted-price">₹749</span>
+            <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1208_image">
+          <img src={image_1208} alt="Shop" />
+          <p>BROWN LINING KURTA SET WITH...</p>
+          <div className="price-container">
+            <span className="original-price">₹1899</span>
+            <span className="discounted-price">₹849</span>
+            <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1111_image">
+          <img src={image_1111} alt="Shop" />
+          <p>WOMEN GOTA WORKED KURTA...</p>
+          <div className="price-container">
+            <span className="original-price">₹2549</span>
+            <span className="discounted-price">₹1149</span>
+            <span className="discounted-label">54% off</span>
+          </div>
+        </div>
+        <div className="shop-1160_image">
+          <img src={image_1160} alt="Shop" />
+          <p>WOMEN GREEN PRINTED GEORGET...</p>
+          <div className="price-container">
+            <span className="original-price">₹1999</span>
+            <span className="discounted-price">₹899</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1205_image">
+          <img src={image_1205} alt="Shop" />
+          <p>OFF WHITE KURTA SET WITH PLAZZO...</p>
+          <div className="price-container">
+            <span className="original-price">₹1899</span>
+            <span className="discounted-price">₹849</span>
+            <span className="discounted-label">55% off</span>
+          </div>
+        </div>
+        <div className="shop-1220_image">
+          <img src={image_1220} alt="Shop" />
+          <p>MULTI COLOUR KOTA CHEX KURTA</p>
+          <div className="price-container">
+            <span className="original-price">₹1099</span>
+            <span className="discounted-price">₹499</span>
+            <span className="discounted-label">54% off</span>
           </div>
         </div>
       </div>
