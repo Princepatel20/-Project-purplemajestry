@@ -30,3 +30,36 @@ const Hero = () => {
 };
 
 export default Hero;
+
+// Hero.js
+
+// import React from "react";
+// import "./Hero.css";
+
+// // Import image
+// import Banner from "../Assets/Banner.jpg";
+
+// const Hero = () => {
+//   return (<>
+//     <div className="hero">
+//       <div className="hero-left">
+//         {/* <h2>Exquisite Indian Ethnic Wear</h2> */}
+
+//         <div>
+//           {/* <h4>PurpleMajestry - an exquisite ecommerce destination for elegant and stylish Indian ethnic wear. We offer breathtaking lehengas and magnificent kurtis that make fashion statements. Each outfit crafted to tell your unique story.</h4> */}
+//         </div>
+//       </div>
+//       <div className="hero-shop-btn">
+//         <div><a href="#Shop" className="hero-shop-btn">Shop New Arrivals →</a></div>
+//       </div>
+
+//       <div className="hero-right">
+//          {/* Display image */}
+//         <img src={Banner} alt="Hero " />
+//       </div>
+//     </div>
+//   </>
+//   );
+// };
+
+// export default Hero;
