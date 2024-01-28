@@ -1,0 +1,57 @@
+.loginsignup {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 80vh;
+    background: #e7cdd9;
+    padding-top: 100px;
+  }
+  
+  .loginsignup-container {
+    width: 300px;
+  }
+  
+  .loginsignup h1 {
+    text-align: center;
+  }
+  
+  .loginsignup-fields input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .loginsignup-fields button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .loginsignup-login {
+    text-align: center;
+  }
+  
+  .loginsignup-login span {
+    color: #4a90e2;
+    cursor: pointer;
+  }
+  
+  .loginsignup-agree {
+    text-align: center;
+  }
+  
+  .loginsignup-agree input {
+    margin-right: 5px;
+  }
+  
+  .loginsignup-agree p {
+    font-size: 12px;
+  }
+  
