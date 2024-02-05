@@ -10,7 +10,16 @@
   line-height: 280px;
   margin: 0;
 }
-.spotlight-1192_image {
+
+/* shop component container */
+.spotlight {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; */
+}
+
+/* Individual product container */
+.spotlight-1_image {
   flex: 1;
   display: flex;
   height: 350px;
@@ -23,14 +32,18 @@
   width: 265px;
   margin-left: 140px;
 }
-.spotlight-1192_image:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-.spotliight-1192_image img {
+
+/* Product image */
+.spotlight-1_image img {
   width: 100%; /* Make sure the image takes full width */
   border-radius: 4px; /* Apply border-radius to the image */
 }
-.spotlight-1192_image p {
+.spotlight-1_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* Product name */
+.spotlight-1_image p {
   text-align: center;
   margin: 10px 0 0;
   align-items: center;
@@ -40,7 +53,32 @@
   flex-direction: row;
   margin-left: -280px;
 }
-.spotlight-1113_image {
+
+/* Price container */
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 380px;
+}
+
+/* Original price */
+.original-price {
+  color: #999;
+  text-decoration: line-through;
+}
+
+/* Discounted price */
+.discounted-price {
+  color: #d9534f; /* Bootstrap's danger color */
+  font-weight: bold;
+}
+
+/* Discount label */
+.discounted-label {
+  color: #5bc0de; /* Bootstrap's info color */
+}
+.spotlight-2_image {
   flex: 1;
   display: flex;
   height: 350px;
@@ -53,14 +91,16 @@
   width: 265px;
   margin-left: 460px;
 }
-.spotlight-1113_image:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-.spotliight-1113_image img {
+
+/* Product image */
+.spotlight-2_image img {
   width: 100%; /* Make sure the image takes full width */
   border-radius: 4px; /* Apply border-radius to the image */
 }
-.spotlight-1113_image p {
+.spotlight-2_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.spotlight-2_image p {
   text-align: center;
   margin: 10px 0 0;
   align-items: center;
@@ -70,7 +110,7 @@
   flex-direction: row;
   margin-left: -280px;
 }
-.spotlight-1164_image {
+.spotlight-3_image {
   flex: 1;
   display: flex;
   height: 350px;
@@ -83,14 +123,16 @@
   width: 265px;
   margin-left: 780px;
 }
-.spotlight-1164_image:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-.spotliight-1164_image img {
+
+/* Product image */
+.spotlight-3_image img {
   width: 100%; /* Make sure the image takes full width */
   border-radius: 4px; /* Apply border-radius to the image */
 }
-.spotlight-1164_image p {
+.spotlight-3_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.spotlight-3_image p {
   text-align: center;
   margin: 10px 0 0;
   align-items: center;
@@ -100,7 +142,7 @@
   flex-direction: row;
   margin-left: -280px;
 }
-.spotlight-1162_image {
+.spotlight-4_image {
   flex: 1;
   display: flex;
   height: 350px;
@@ -111,16 +153,18 @@
   border-radius: 4px;
   padding: 5px;
   width: 265px;
-  margin-left: 1090px;
+  margin-left: 1100px;
 }
-.spotlight-1162_image:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-.spotliight-1162_image img {
+
+/* Product image */
+.spotlight-4_image img {
   width: 100%; /* Make sure the image takes full width */
   border-radius: 4px; /* Apply border-radius to the image */
 }
-.spotlight-1162_image p {
+.spotlight-4_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.spotlight-4_image p {
   text-align: center;
   margin: 10px 0 0;
   align-items: center;
@@ -130,7 +174,7 @@
   flex-direction: row;
   margin-left: -280px;
 }
-.spotlight-1116_image {
+.spotlight-5_image {
   flex: 1;
   display: flex;
   height: 350px;
@@ -143,14 +187,16 @@
   width: 265px;
   margin-left: 140px;
 }
-.spotlight-1116_image:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-.spotliight-1116_image img {
+
+/* Product image */
+.spotlight-5_image img {
   width: 100%; /* Make sure the image takes full width */
   border-radius: 4px; /* Apply border-radius to the image */
 }
-.spotlight-1116_image p {
+.spotlight-5_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.spotlight-5_image p {
   text-align: center;
   margin: 10px 0 0;
   align-items: center;
@@ -160,7 +206,7 @@
   flex-direction: row;
   margin-left: -280px;
 }
-.spotlight-1147_image {
+.spotlight-6_image {
   flex: 1;
   display: flex;
   height: 350px;
@@ -173,14 +219,16 @@
   width: 265px;
   margin-left: 460px;
 }
-.spotlight-1147_image:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-.spotliight-1147_image img {
+
+/* Product image */
+.spotlight-6_image img {
   width: 100%; /* Make sure the image takes full width */
   border-radius: 4px; /* Apply border-radius to the image */
 }
-.spotlight-1147_image p {
+.spotlight-6_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.spotlight-6_image p {
   text-align: center;
   margin: 10px 0 0;
   align-items: center;
@@ -190,7 +238,7 @@
   flex-direction: row;
   margin-left: -280px;
 }
-.spotlight-1165_image {
+.spotlight-7_image {
   flex: 1;
   display: flex;
   height: 350px;
@@ -203,14 +251,16 @@
   width: 265px;
   margin-left: 780px;
 }
-.spotlight-1165_image:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-.spotliight-1165_image img {
+
+/* Product image */
+.spotlight-7_image img {
   width: 100%; /* Make sure the image takes full width */
   border-radius: 4px; /* Apply border-radius to the image */
 }
-.spotlight-1165_image p {
+.spotlight-7_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.spotlight-7_image p {
   text-align: center;
   margin: 10px 0 0;
   align-items: center;
@@ -220,7 +270,7 @@
   flex-direction: row;
   margin-left: -280px;
 }
-.spotlight-1146_image {
+.spotlight-8_image {
   flex: 1;
   display: flex;
   height: 350px;
@@ -231,16 +281,18 @@
   border-radius: 4px;
   padding: 5px;
   width: 265px;
-  margin-left: 1090px;
+  margin-left: 1100px;
 }
-.spotlight-1146_image:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-.spotliight-1146_image img {
+
+/* Product image */
+.spotlight-8_image img {
   width: 100%; /* Make sure the image takes full width */
   border-radius: 4px; /* Apply border-radius to the image */
 }
-.spotlight-1146_image p {
+.spotlight-8_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.spotlight-8_image p {
   text-align: center;
   margin: 10px 0 0;
   align-items: center;
