@@ -1,5 +1,50 @@
 import React from "react";
 import "./Shop.css";
+import data_product from "../Components/Assets/data";
+
+const Shop = () => {
+  return (
+    <>
+      <div className="shop">
+        <div className="shop-title">
+          <h2>All Products</h2>
+        </div>
+
+        {data_product.map((product) => {
+          if (product.id >= 1 && product.id <= 20) {
+            return (
+              <div className={`shop-${product.id}_image`} key={product.id}>
+                <img src={product.image} alt={product.name} />
+                <p>{product.name}</p>
+                <div className="price-container">
+                  <span className="original-price">₹{product.old_price}</span>
+                  <span className="discounted-price">₹{product.new_price}</span>
+                  <span className="discounted-label">
+                    {Math.floor(
+                      ((product.old_price - product.new_price) /
+                        product.old_price) *
+                        100
+                    )}
+                    % off
+                  </span>
+                </div>
+              </div>
+            );
+          } else {
+            return null; // If you don't want to render anything for items outside the range
+          }
+        })}
+      </div>
+    </>
+  );
+};
+
+export default Shop;
+
+
+
+import React from "react";
+import "./Shop.css";
 import image_1192 from "../Components/Assets/1192.jpg";
 import image_1113 from "../Components/Assets/1113.jpg";
 import image_1164 from "../Components/Assets/1164.jpg";
