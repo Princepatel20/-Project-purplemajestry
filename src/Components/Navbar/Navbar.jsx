@@ -1,35 +1,52 @@
-import React, { useState } from 'react'
-import './Navbar.css'
+import React, { useState } from 'react';
+import './Navbar.css';
 import { Link } from 'react-router-dom';
 
-import logo from "../Assets/purplemajestry.png"
-// import cart_icon from "../Assets/cart_icon.png"
-
+import logo from '../Assets/purplemajestry.png';
 
 const Navbar = () => {
-
-  const [menu,setmenu] = useState("home");
+  const [menu, setMenu] = useState('home');
 
   return (
-    <div className='navbar'>
-      <div className="nav-logo">
-        <img src={logo} alt="Navbar" />
-        
-      </div>
+    <div className="navbar">
+      {/* Wrap the logo with a Link component */}
+      <Link to="/" style={{ textDecoration: 'none' }}>
+        <div className="nav-logo">
+          <img src={logo} alt="Navbar" />
+        </div>
+      </Link>
       <ul className="nav-menu">
-        <li on onClick={()=>{setmenu("home")}}><Link style={{ textDecoration: 'none' }} to='/'>Home</Link>{menu==="home"?<hr/>:<></>}</li>
-        <li on onClick={()=>{setmenu("shop")}}><Link style={{ textDecoration: 'none' }} to='/shop'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
-        <li on onClick={()=>{setmenu("menus")}}><Link style={{ textDecoration: 'none' }} to='/menus'>Menus</Link>{menu==="menus"?<hr/>:<></>}</li>
-        <li on onClick={()=>{setmenu("about")}}><Link style={{ textDecoration: 'none' }} to='/about'>About</Link>{menu==="About"?<hr/>:<></>}</li>
-        <li on onClick={()=>{setmenu("contact")}}><Link style={{ textDecoration: 'none' }} to='/contact'>Contact</Link>{menu==="contact"?<hr/>:<></>}</li>
+        <li onClick={() => { setMenu('home'); }}>
+          <Link style={{ textDecoration: 'none' }} to='/'>Home</Link>
+          {menu === 'home' ? <hr /> : <></>}
+        </li>
+        <li onClick={() => { setMenu('Shop'); }}>
+          <Link style={{ textDecoration: 'none' }} to='/Shop'>Shop</Link>
+          {menu === 'Shop' ? <hr /> : <></>}
+        </li>
+        <li onClick={() => { setMenu('menus'); }}>
+          <Link style={{ textDecoration: 'none' }} to='/menus'>Menus</Link>
+          {menu === 'menus' ? <hr /> : <></>}
+        </li>
+        <li onClick={() => { setMenu('about'); }}>
+          <Link style={{ textDecoration: 'none' }} to='/about'>About</Link>
+          {menu === 'About' ? <hr /> : <></>}
+        </li>
+        <li onClick={() => { setMenu('contact'); }}>
+          <Link style={{ textDecoration: 'none' }} to='/contact'>Contact</Link>
+          {menu === 'contact' ? <hr /> : <></>}
+        </li>
       </ul>
+
       <div className="nav-login-cart">
-        <button>Login</button>
-        {/* <img src={cart_icon} alt="Navbar" /> */}
+        <li onClick={() => { setMenu('login'); }}>
+          <Link style={{ textDecoration: 'none' }} to='/Login'>Login</Link>
+          {menu === 'Login' ? <hr /> : <></>}
+        </li>
         <div className="nav-cart-count">0</div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
